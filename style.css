@@ -165,7 +165,7 @@ a:hover{
     .a11 {
         grid-area: 2/1/13/-1;
         margin: 0 10px;
-        width: 100%; /* Ensure it takes full width on mobile */
+        width: 1000%; /* Ensure it takes full width on mobile */
     }
 }
 
