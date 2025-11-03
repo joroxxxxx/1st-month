@@ -158,12 +158,14 @@ a:hover{
     padding: 0px;
     max-width: 100%;
     height: auto;
+    width: 100%; /* Added width for responsiveness */
 }
 
 @media screen and (max-width: 768px) {
     .a11 {
         grid-area: 2/1/13/-1;
         margin: 0 10px;
+        width: 100%; /* Ensure it takes full width on mobile */
     }
 }
 
